@@ -54,6 +54,9 @@
 
 ## 3. 시스템 아키텍처
 
+<details>
+<summary>📌 시스템 아키텍처 펼쳐보기</summary>
+
 ```mermaid
 flowchart TD
     A["사용자 / MTS 화면"] --> B["Question Agent"]
@@ -81,6 +84,8 @@ flowchart TD
         L -->|"ABSTAIN"| X
     end
 ```
+
+</details>
 
 *핵심 처리 흐름을 단순화한 다이어그램이며, 실제 실행에는 검증 결과, 재시도 횟수, 시간 예산에 따른 추가 분기가 적용됩니다.*
 
